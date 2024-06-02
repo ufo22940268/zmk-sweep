@@ -91,7 +91,7 @@
 		bindings = <
 		&none &kp ESC  &trans &trans  &kp LS(LG(Z)) &trans      			     &kp HOME &kp PG_DN &kp PG_UP &kp END &kp CAPS &none
 		&none &sk LGUI &sk LALT &sk LCTRL &sk LSHIFT &none 			&kp LEFT &kp DOWN &kp UP &kp RIGHT   &kp DEL &none
-		&none &kp LG(Z)  &kp LG(X) &kp LG(C) &kp TAB   &kp LG(V)          &kp LC(BSPC) &kp BSPC &trans &trans  &trans &none
+		&none &kp LG(Z)  &kp LG(X) &kp LG(C) &kp TAB   &kp LG(V)          &kp LG(BSPC) &kp BSPC &trans &trans  &trans &none
 					                       &none &trans &kp LCTRL   &kp ENTER  &mo FNC &none
 		>;
 		};
@@ -100,7 +100,7 @@
        		fnc_layer {
 		bindings = <
 		&none &kp F1 &kp F2 &kp F3 &kp F4 &kp F5                  &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &none
-		&none &sk LGUI &sk LALT &sk LCTRL &sk LSHIFT &none     &kp F11 &kp F12  &kp PRINTSCREEN &trans &trans &none
+		&none &sk LGUI &sk LALT &sk LCTRL &sk LSHIFT &none     &kp F11 &kp F12  &none &trans &trans &none
 		&none &trans &none &none &none &none				          &none &none &none &none &none &none
           				          &none &none &none            &none  &none &none
 		>;
