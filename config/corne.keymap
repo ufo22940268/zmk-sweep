@@ -46,19 +46,19 @@
 				// both right thumb keys
         combo_accent {
             timeout-ms = <300>;
-            key-positions = <32 33>;
+            key-positions = <39 40>;
             bindings = <&mo ACCENT>;
         };
 				// internal-left & external-right thumb keys
 				combo_sym2 {
 						timeout-ms = <200>;
-						key-positions = <31 33>;
+						key-positions = <38 40>;
 						bindings = <&mo SYM2>;
 				};
 				// both left thumb keys
 				combo_settings {
 						timeout-ms = <300>;
-						key-positions = <30 31>;
+						key-positions = <37 38>;
 						bindings = <&mo SETTINGS>;
 				};
     };
@@ -109,19 +109,17 @@
         // Low frequency symbols.
        		symbols_2_layer {
 		bindings = <
-		&none &kp IT_CARET &kp IT_UNDER &kp IT_PND &kp IT_EUR &kp IT_HASH         &none &none &none &none &none &none
-		&none &kp IT_BKTK &kp IT_TILDE &kp IT_BSLH &kp IT_PIPE &kp IT_AND         &none &none &none &none &none &none
-		&none &none 			&none 			 &kp IT_SECT &kp IT_CCED &kp IT_DEG				  &none &none &none &none &none &none
-          				           												&none &none &none        	&none &none &none
+		&none &none &none &none &none &none                         &none &none &none &none &none &none
+		&none &none &none &none &none &none                 &kp LC(LA(LG(SLASH))) &kp LC(LA(LG(COMMA))) &kp LC(LA(LG(DOT))) &none &none &none &none &none &none &none &none &none                         &none &none &none &none &none &none &none &none &none                        &none &none &none
 		>;
 		};
 
         // Used to type regional accents.
        		accent_layer {
 		bindings = <
-		&none &none &none &kp LC(LA(LG(COMMA))) &kp IT_CEGR &none                         &none &none &none &none &none &none
-		&none &none &none &kp LC(LA(LG(DOT))) &none &kp LC(LA(LG(SLASH)))                 &none &none &none &none &none &none
-		&none &none &none &none &kp IT_UGRV &none                         &none &none &none &none &none &none
+		&none &none &none &kp LC(LA(LG(DOT))) &none &none                         &none &none &none &none &none &none
+		&none &none &none &kp LC(LA(LG(COMMA))) &none &kp LC(LA(LG(SLASH)))                 &none &none &none &none &none &none
+		&none &none &none &none &none &none                         &none &none &none &none &none &none
           				      &none &none &none                        &none &none &none
 		>;
 		};
